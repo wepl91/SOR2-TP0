@@ -1,1 +1,0 @@
-cmd_/home/walter/Documents/Universidad/SOR-II/SOR2-TP0/miModulo.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/walter/Documents/Universidad/SOR-II/SOR2-TP0/miModulo.ko /home/walter/Documents/Universidad/SOR-II/SOR2-TP0/miModulo.o /home/walter/Documents/Universidad/SOR-II/SOR2-TP0/miModulo.mod.o;  true

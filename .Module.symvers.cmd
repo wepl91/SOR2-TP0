@@ -1,1 +1,0 @@
-cmd_/home/walter/Documents/Universidad/SOR-II/SOR2-TP0/Module.symvers := sed 's/ko$$/o/' /home/walter/Documents/Universidad/SOR-II/SOR2-TP0/modules.order | scripts/mod/modpost -m -a  -o /home/walter/Documents/Universidad/SOR-II/SOR2-TP0/Module.symvers -e -i Module.symvers   -T -
