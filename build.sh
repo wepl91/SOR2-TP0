@@ -1,0 +1,7 @@
+bash -c "sudo rmmod miModulo"
+bash -c "sudo rm -rf /dev/charDevice"
+bash -c "make clean & make"
+bash -c "sudo insmod miModulo.ko"
+bash -c "sudo dmesg"
+echo -p "Build success"
+bash -c "bash mount_device.sh"
